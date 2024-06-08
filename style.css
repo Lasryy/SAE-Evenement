@@ -64,7 +64,6 @@ body{
 }
 
 #programme {
-    border: 6px solid #8b4513;
     margin-top: 10px;
     display: flex;
     flex-direction:column;
@@ -72,7 +71,7 @@ body{
     width: 94%;
     background-color: white;
     justify-content: center;
-    border: solid #fff 3px;
+    border: 6px solid #8b4513;
     border-radius: 3px;
     padding: 20px;
 }
