@@ -77,9 +77,10 @@ body{
 }
 
 h1 {
-    font-family: "Lucida Console", Courier, monospace;
-    font-size: 60px;
+    font-family: "DM Serif Text", serif;
     font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
     line-height: 113.09px;
     text-align: center;
     display: block;
@@ -104,9 +105,12 @@ h1 {
     gap: 20px;
 }
 
-.contenu p {
-    flex: 1; /* Allow the paragraph to take the remaining space */
-    margin: 0; /* Remove default margins */
+.contenu>p {
+    flex: 1;
+    margin: 0; 
+    border: solid #8B4513 2px;
+    border-radius: 2px;
+    background-color: rgb(255,239,215);
 }
 
 #poster{
@@ -117,7 +121,7 @@ h1 {
 
 .poster {
     display: flex;
-    max-width: 200px; /* Adjust max-width as needed */
+    max-width: 200px;
     margin: 10px 0;
 }
 
@@ -130,9 +134,17 @@ h1 {
 }
 
 .important{
-    color: orangered;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .souligne{
     background-color: #eeedb5;
 }
+
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
