@@ -58,7 +58,81 @@ body{
     padding-top: 6%;
 }
 
-#programme {
+#logo-concours {
     max-width: 100%;
     height: auto;
+}
+
+#programme {
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 94%;
+    background-color: white;
+    justify-content: center;
+    border: solid #fff 3px;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 113.09px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.contenu {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+
+#programme>div {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.contenu p {
+    flex: 1; /* Allow the paragraph to take the remaining space */
+    margin: 0; /* Remove default margins */
+}
+
+#poster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster {
+    display: flex;
+    max-width: 200px; /* Adjust max-width as needed */
+    margin: 10px 0;
+}
+
+#poster p{
+    font-size: 10px;
+    margin-top: -10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.important{
+    color: orangered;
+}
+
+.souligne{
+    background-color: #eeedb5;
 }
