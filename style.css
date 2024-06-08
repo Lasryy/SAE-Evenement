@@ -64,6 +64,7 @@ body{
 }
 
 #programme {
+    border: 6px solid #8b4513;
     margin-top: 10px;
     display: flex;
     flex-direction:column;
