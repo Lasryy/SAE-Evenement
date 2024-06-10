@@ -1,0 +1,161 @@
+#taskbar {
+    background-color: rgb(112, 190, 185);
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+#logo {
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.listTask {
+    margin: 0 3%;
+    background-color: rgb(69, 129, 125);
+    padding: 3px 5%;
+}
+
+.listTask a {
+    color: rgba(255, 255, 255, 0.904);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: #F3B13B; 
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 5%);
+    padding-top: 6%;
+}
+
+#logo-concours {
+    max-width: 100%;
+    height: auto;
+}
+
+#programme {
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 94%;
+    background-color: #fff8dc;
+    justify-content: center;
+    border: 6px solid #8b4513;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    line-height: 113.09px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    user-select: none;
+}
+
+.contenu {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    gap: 20px;
+    border: solid #8B4513 2px;
+    border-radius: 5px;
+    background-color: rgb(255,239,215);
+}
+
+#programme>div {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.contenu>p {
+    flex: 1;
+    margin: 10px; 
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+}
+
+#poster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.poster {
+    display: flex;
+    max-width: 200px;
+    margin: 10px 0;
+}
+
+#poster p{
+    font-size: 10px;
+    margin-top: -10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.important{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.souligne{
+    background-color: #eeedb5;
+}
+
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .drapeau {
+    width: 40px;
+    height: 30px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
